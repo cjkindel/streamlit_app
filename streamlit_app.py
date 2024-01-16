@@ -1,7 +1,10 @@
 import streamlit as st
 import openapi_client
-
+import os
 import time
+
+os.system("pip install openapi_client-1.0.0-py3-none-any.whl")
+
 import openapi_client
 from openapi_client.models.list_organizations_response_content import ListOrganizationsResponseContent
 from openapi_client.rest import ApiException
